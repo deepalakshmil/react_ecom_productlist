@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #828480;
+ /* background-color: #89d63c;*/
 }
 
 h1 {
@@ -43,7 +43,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  /*background-color: #1a1a1a;*/
+  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -67,3 +67,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+/*
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(126, 129, 126);
+    
+    .proudcts-container{
+      flex-direction: column;
+    }
+  }
+}*/

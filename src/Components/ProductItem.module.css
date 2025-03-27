@@ -1,9 +1,20 @@
 .productitem {
-    background-color: rgb(141, 144, 143);
-    border: 5px solid black;
-    max-width: 500px;
+    background-color: rgb(181, 248, 181);
+    border: 2px solid rgb(238, 92, 92);
+  /*  max-width: 400px;*/
     color: black;
-    margin: 20px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
   }
+
+ /*.productitem img{
+
+    padding-top: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    padding-top: 10px;
+  max-width: 200px;
+  border-radius: 25px;
+  }*/
