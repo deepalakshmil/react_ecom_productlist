@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   text-align: center;
-  /*background-color: aquamarine;*/
+  background-color: rgb(196, 209, 205);
 }
 
 .logo {
@@ -56,7 +56,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between; 
  /* gap: 20px;*/
-  background-color: rgba(0, 255, 255, 0.11);
+  background-color: rgba(229, 125, 187, 0.375);
   padding: 40px;
   margin-top: 40px;
   /*width: 100%;*/
@@ -79,7 +79,7 @@ h1 {
 }*/
 @media screen and (max-width: 800px) {
   body {
-    background-color: rgb(126, 129, 126);
+    background-color: rgb(220, 228, 220);
     
     .proudcts-container{
       flex-direction: column;
