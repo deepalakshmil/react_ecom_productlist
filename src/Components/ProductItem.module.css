@@ -1,20 +1,9 @@
+/*  Styling to product  container */
 .productitem {
-    background-color: rgba(237, 215, 236, 0.921);
-    border: 2px solid rgb(238, 92, 92);
-  /*  max-width: 400px;*/
-    color: black;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
- /*.productitem img{
-
-    padding-top: 5px;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 25px;
-    padding-top: 10px;
-  max-width: 200px;
-  border-radius: 25px;
-  }*/
+  background-color: rgba(237, 215, 236, 0.388);
+  border: 2px solid rgb(238, 92, 92);
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}

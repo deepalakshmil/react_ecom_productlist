@@ -1,9 +1,7 @@
 #root {
- 
   margin: 0 auto;
-
   text-align: center;
-  background-color: rgb(196, 209, 205);
+  background-color: rgba(196, 209, 205, 0.068);
 }
 
 .logo {
@@ -12,9 +10,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -23,6 +23,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -41,52 +42,40 @@
 .read-the-docs {
   color: #888;
 }
+
+/* To start Apply the custom CSS Styling */
 h1 {
   color: green;
 }
-.header {
-  color: red;
-}
 
+/*  Styling to product list container */
 
-
-.proudcts-container{
+.proudcts-container {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; 
- /* gap: 20px;*/
-  background-color: rgba(190, 27, 27, 0.459);
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgba(190, 27, 27, 0.315);
   padding: 40px;
   margin-top: 40px;
-  /*width: 100%;*/
   border-radius: 30px;
   border: 5px solid black;
 
 }
-/*img{
-  padding-top: 5px;
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 25px;
-}*/
 
-img{
+img {
   border-radius: 25px;
   border: 2px solid rgba(29, 28, 28, 0.66);
 }
 
+/* Using the media Query*/
 
-/*.main-container{
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-}*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   body {
     background-color: rgb(220, 228, 220);
-    
-    .proudcts-container{
+
+    .proudcts-container {
       flex-direction: column;
     }
   }
