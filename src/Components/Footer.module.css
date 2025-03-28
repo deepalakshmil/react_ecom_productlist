@@ -1,0 +1,7 @@
+/*  Styling to footer container */
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(250, 91, 43, 0.474);
+    color: white;
+  }

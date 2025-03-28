@@ -10,6 +10,7 @@ function ProductItem({ oneProduct }) {
       <h4>Price:{oneProduct.price}</h4>
       <p>{oneProduct.description}</p>
       <p>{oneProduct.category}</p>
+      <p><a href="https://domains.atom.com/lpd/name/eshopping.com" target="_blank">Add to card</a></p>
     </div>
   );
 }

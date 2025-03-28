@@ -73,7 +73,7 @@ img {
 
 @media screen and (max-width: 768px) {
   body {
-    background-color: rgb(220, 228, 220);
+    background-color: rgba(220, 228, 220, 0);
 
     .proudcts-container {
       flex-direction: column;
